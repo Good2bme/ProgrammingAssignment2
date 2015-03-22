@@ -1,5 +1,9 @@
-## makeCacheMatrix takes in a square matrix and returns the inverse of that martix 
+## CacheMatrix takes in a square matrix and returns the inverse of that martix 
 ## as well as storing the result matrix in cache.
+
+
+## makeCacheMatrix takes in a square matrix and returns a list of function which are
+## now associated with matrix passed in.
 
 makeCacheMatrix <- function(x = matrix()) {
   
